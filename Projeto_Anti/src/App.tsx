@@ -12,7 +12,7 @@ const sections = [
   { id: 9, src: '/9_como.png', alt: 'Seção explicando como funciona' },
   { id: 10, src: '/10_provas.png', alt: 'Seção com provas' },
   { id: 11, src: '/11_offerstack.png', alt: 'Seção da oferta principal' },
-  { id: 12, src: '/12. Offerstack.png', alt: 'Seção complementar da oferta' },
+  { id: 12, src: '/12. Offerstack.png', alt: '' },
 ];
 
 const routeContent = {
