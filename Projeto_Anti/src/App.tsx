@@ -12,7 +12,7 @@ const sections = [
   { id: 9, src: '/9_como.png', alt: 'Seção explicando como funciona' },
   { id: 10, src: '/10_provas.png', alt: 'Seção com provas' },
   { id: 11, src: '/11_offerstack.png', alt: 'Seção da oferta principal' },
-  { id: 12, src: '/12. Offerstack.png', alt: '' },
+  { id: 12, src: '/12. Offerstack.png', alt: 'Seção complementar da oferta' },
 ];
 
 const routeContent = {
@@ -136,16 +136,18 @@ function LandingPage() {
           <div className="cta-alert">
             <span className="alert-icon">⚠</span>
             <div className="alert-text-block">
-              <p className="alert-title">O JOGO MUDA QUANDO VOCÊ COMEÇA A SER PERCEBIDO DIFERENTE.</p>
-              <p className="alert-sub">Você está a um passo de parar de aceitar qualquer match só por carência… e começar a se envolver com mulheres que hoje parecem inalcançáveis. Poucas pessoas realmente entendem os sinais invisíveis. Não fique para trás. </p>
+              <p className="alert-title">ESSA NÃO É UMA OFERTA QUE VAI FICAR DISPONÍVEL PARA SEMPRE.</p>
+              <p className="alert-sub">Poucas pessoas realmente entendem os sinais invisíveis. Não fique para trás.</p>
             </div>
           </div>
 
           <div className="cta-btn-wrapper">
-            <button
+            <a
               className="cta-btn"
+              href="https://pay.kiwify.com.br/kTyieX6"
               aria-label="Acessar o Código Anti-Rejeição agora"
-              type="button"
+              target="_blank"
+              rel="noreferrer"
             >
               <div className="offer-cta-sheen" />
               <span className="btn-lock">🔒</span>
@@ -153,7 +155,7 @@ function LandingPage() {
                 <p className="btn-text">QUERO ACESSAR O CÓDIGO ANTI-REJEIÇÃO™ AGORA</p>
                 <p className="btn-sub">ACESSO IMEDIATO • 100% ONLINE • GARANTIA DE 7 DIAS</p>
               </div>
-            </button>
+            </a>
           </div>
         </section>
       </main>
