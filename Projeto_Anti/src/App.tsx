@@ -1,17 +1,17 @@
 import './index.css';
 
 const sections = [
-  { id: 1 },
-  { id: 2 },
-  { id: 3 },
-  { id: 4 },
-  { id: 5 },
-  { id: 6 },
-  { id: 7 },
-  { id: 8 },
-  { id: 9 },
-  { id: 10 },
-  { id: 11 },
+  { id: "/1_hero.png" },
+  { id: "/2_bigpromise.png" },
+  { id: "/3_quebra.png" },
+  { id: "/4_causaoculta.png" },
+  { id: "/5_inimigo.png" },
+  { id: "/6_doremocional.png" },
+  { id: "/7_storytelling.png" },
+  { id: "8_mecanismo.png" },
+  { id: "9_como.png" },
+  { id: "10_provas.png" },
+  { id: "11_offerstack.png" },
 ];
 
 export default function App() {
