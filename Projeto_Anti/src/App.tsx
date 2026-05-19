@@ -135,8 +135,8 @@ function LandingPage() {
           <div className="cta-alert">
             <span className="alert-icon">⚠</span>
             <div className="alert-text-block">
-              <p className="alert-title">ESSA NÃO É UMA OFERTA QUE VAI FICAR DISPONÍVEL PARA SEMPRE.</p>
-              <p className="alert-sub">Poucas pessoas realmente entendem os sinais invisíveis. Não fique para trás.</p>
+              <p className="alert-title">O JOGO MUDA QUANDO VOCÊ COMEÇA A SER PERCEBIDO DIFERENTE.</p>
+              <p className="alert-sub">Você está a um passo de parar de aceitar qualquer match só por carência… e começar a se envolver com mulheres que hoje parecem inalcançáveis. Poucas pessoas realmente entendem os sinais invisíveis. Não fique para trás.</p>
             </div>
           </div>
 
