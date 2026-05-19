@@ -1,23 +1,111 @@
 import './index.css';
 
 const sections = [
-  { id: 1, image: "/1_hero.png" },
-  { id: 2, image: "/2_bigpromise.png" },
-  { id: 3, image: "/3_quebra.png" },
-  { id: 4, image: "/4_causaoculta.png" },
-  { id: 5, image: "/5_inimigo.png" },
-  { id: 6, image: "/6_doremocional.png" },
-  { id: 7, image: "/7_storytelling.png" },
-  { id: 8, image: "/8_mecanismo.png" },
-  { id: 9, image: "/9_como.png" },
-  { id: 10, image: "/10_provas.png" },
-  { id: 11, image: "/11_offerstack.png" },
+  { id: 1, src: '/1_hero.png', alt: 'Seção principal da landing page' },
+  { id: 2, src: '/2_bigpromise.png', alt: 'Seção com a grande promessa' },
+  { id: 3, src: '/3_quebra.png', alt: 'Seção de quebra de padrão' },
+  { id: 4, src: '/4_causaoculta.png', alt: 'Seção sobre a causa oculta' },
+  { id: 5, src: '/5_inimigo.png', alt: 'Seção sobre o inimigo invisível' },
+  { id: 6, src: '/6_doremocional.png', alt: 'Seção sobre dor emocional' },
+  { id: 7, src: '/7_storytelling.png', alt: 'Seção de storytelling' },
+  { id: 8, src: '/8_mecanismo.png', alt: 'Seção do mecanismo' },
+  { id: 9, src: '/9_como.png', alt: 'Seção explicando como funciona' },
+  { id: 10, src: '/10_provas.png', alt: 'Seção com provas' },
+  { id: 11, src: '/11_offerstack.png', alt: 'Seção da oferta principal' },
+  { id: 12, src: '/12. Offerstack.png', alt: 'Seção complementar da oferta' },
 ];
 
-export default function App() {
+const routeContent = {
+  '/privacidade': {
+    title: 'Política de Privacidade',
+    paragraphs: [
+      'A Caverna de Alexandria coleta apenas as informações necessárias para processar pagamentos, liberar o acesso ao produto e prestar suporte ao cliente.',
+      'Os dados informados não são vendidos a terceiros. Eles podem ser compartilhados apenas com plataformas operacionais essenciais, como meios de pagamento, hospedagem e ferramentas de atendimento.',
+      'Ao continuar navegando nesta página ou adquirir o produto, você concorda com o uso dessas informações para comunicação, entrega de conteúdo e melhoria da experiência.',
+      'Se desejar solicitar atualização, correção ou exclusão de dados, entre em contato pelos canais oficiais de suporte.',
+    ],
+  },
+  '/termos': {
+    title: 'Termos de Serviço',
+    paragraphs: [
+      'O conteúdo da Caverna de Alexandria é destinado exclusivamente a fins informativos e educacionais, sendo proibida a reprodução, distribuição ou revenda sem autorização expressa.',
+      'O acesso ao material é individual. O compartilhamento indevido de login, arquivos ou áreas protegidas pode resultar em bloqueio do acesso sem reembolso.',
+      'Os resultados variam de pessoa para pessoa e dependem da aplicação prática do conteúdo. Nenhuma promessa deve ser interpretada como garantia absoluta de resultado.',
+      'Ao adquirir e utilizar o produto, você declara estar de acordo com estes termos e com a política de privacidade vigente.',
+    ],
+  },
+  '/suporte': {
+    title: 'Suporte',
+    paragraphs: [
+      'Se você precisar de ajuda com acesso, pagamento ou dúvidas sobre o produto, entre em contato pelos canais abaixo.',
+      'Email: cavernadealexandria@gmail.com',
+      'WhatsApp: (11)986955476',
+      'Nosso atendimento responde por ordem de chegada em horário comercial.',
+    ],
+  },
+} as const;
+
+function Footer() {
+  return (
+    <footer className="site-footer">
+      <nav className="footer-nav">
+        <a href="/privacidade" className="footer-link">Política de Privacidade</a>
+        <span className="footer-sep">·</span>
+        <a href="/termos" className="footer-link">Termos de Serviço</a>
+        <span className="footer-sep">·</span>
+        <a href="/suporte" className="footer-link">Suporte</a>
+      </nav>
+      <div className="footer-disclaimer">
+        Este produto é destinado a homens adultos que desejam melhorar sua presença digital.
+        Os resultados variam individualmente. O sistema não garante resultados específicos em relacionamentos.
+      </div>
+    </footer>
+  );
+}
+
+function LegalPage({
+  title,
+  paragraphs,
+}: {
+  title: string;
+  paragraphs: string[];
+}) {
   return (
     <div className="page-wrapper">
-      {/* HEADER */}
+      <header className="site-header">
+        <div className="header-inner">
+          <a href="/" className="logo-container logo-link">
+            <img
+              src="/Insta.png"
+              alt="Caverna de Alexandria"
+              className="logo-img"
+            />
+            <span className="brand-name">Caverna de Alexandria</span>
+          </a>
+        </div>
+      </header>
+
+      <div className="header-spacer" />
+
+      <main className="legal-wrapper">
+        <section className="legal-card">
+          <p className="legal-kicker">Informações Legais</p>
+          <h1 className="legal-title">{title}</h1>
+          {paragraphs.map((paragraph) => (
+            <p key={paragraph} className="legal-paragraph">{paragraph}</p>
+          ))}
+          <a href="/" className="legal-back">Voltar para a página principal</a>
+        </section>
+      </main>
+
+      <Footer />
+    </div>
+  );
+}
+
+function LandingPage() {
+  return (
+    <div className="page-wrapper">
       <header className="site-header">
         <div className="header-inner">
           <div className="logo-container">
@@ -33,19 +121,17 @@ export default function App() {
 
       <div className="header-spacer" />
 
-      {/* SECTION IMAGES + CTA */}
       <main className="sections-wrapper">
-        {sections.map(({ id }) => (
+        {sections.map(({ id, src, alt }) => (
           <img
             key={id}
-            src={`/placeholder-${id}.webp`}
-            alt=""
+            src={src}
+            alt={alt}
             loading={id === 1 ? 'eager' : 'lazy'}
             className="section-img"
           />
         ))}
 
-        {/* CTA BLOCK */}
         <section className="cta-block">
           <div className="cta-alert">
             <span className="alert-icon">⚠</span>
@@ -56,7 +142,11 @@ export default function App() {
           </div>
 
           <div className="cta-btn-wrapper">
-            <button className="cta-btn" aria-label="Acessar o Código Anti-Rejeição agora">
+            <button
+              className="cta-btn"
+              aria-label="Acessar o Código Anti-Rejeição agora"
+              type="button"
+            >
               <div className="offer-cta-sheen" />
               <span className="btn-lock">🔒</span>
               <div className="btn-content">
@@ -68,19 +158,18 @@ export default function App() {
         </section>
       </main>
 
-      {/* FOOTER */}
-      <footer className="site-footer">
-        <nav className="footer-nav">
-          <a href="#privacy" className="footer-link">Política de Privacidade</a>
-          <span className="footer-sep">·</span>
-          <a href="#terms" className="footer-link">Termos de Serviço</a>
-          <span className="footer-sep">·</span>
-          <a href="#support" className="footer-link">Suporte</a>
-        </nav>
-        <div className="footer-disclaimer">
-          Este produto é destinado a homens adultos que desejam melhorar sua presença digital. Os resultados variam individualmente. O sistema não garante resultados específicos em relacionamentos.
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
+}
+
+export default function App() {
+  const path = window.location.pathname.toLowerCase();
+  const page = routeContent[path as keyof typeof routeContent];
+
+  if (page) {
+    return <LegalPage title={page.title} paragraphs={page.paragraphs} />;
+  }
+
+  return <LandingPage />;
 }
