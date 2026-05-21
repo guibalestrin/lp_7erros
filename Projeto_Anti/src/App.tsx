@@ -50,9 +50,9 @@ function Footer() {
   return (
     <footer className="site-footer">
       <nav className="footer-nav">
-        <a href="/privacidade" className="footer-link">Politica de Privacidade</a>
+        <a href="/privacidade" className="footer-link">Política de Privacidade</a>
         <span className="footer-sep">|</span>
-        <a href="/termos" className="footer-link">Termos de Servico</a>
+        <a href="/termos" className="footer-link">Termos de Serviço</a>
         <span className="footer-sep">|</span>
         <a href="/suporte" className="footer-link">Suporte</a>
       </nav>
@@ -90,12 +90,12 @@ function LegalPage({
 
       <main className="legal-wrapper">
         <section className="legal-card">
-          <p className="legal-kicker">Informacoes Legais</p>
+          <p className="legal-kicker">Informacões Legais</p>
           <h1 className="legal-title">{title}</h1>
           {paragraphs.map((paragraph) => (
             <p key={paragraph} className="legal-paragraph">{paragraph}</p>
           ))}
-          <a href="/" className="legal-back">Voltar para a pagina principal</a>
+          <a href="/" className="legal-back">Voltar para a página principal</a>
         </section>
       </main>
 
@@ -158,8 +158,8 @@ function LandingPage() {
                   </div>
 
                   <div className="offer-jump-copy">
-                    <p className="offer-jump-eyebrow">PERCEPCAO GERA ATRACAO.</p>
-                    <p className="offer-jump-title">ESTRATEGIA GERA RESULTADOS.</p>
+                    <p className="offer-jump-eyebrow">PERCEPÇÃO GERA ATRAÇÃO.</p>
+                    <p className="offer-jump-title"></p>
                   </div>
 
                   <span className="offer-jump-button">
@@ -176,8 +176,8 @@ function LandingPage() {
           <div className="cta-alert">
             <span className="alert-icon">!</span>
             <div className="alert-text-block">
-              <p className="alert-title">O JOGO MUDA QUANDO VOCE COMECA A SER PERCEBIDO DIFERENTE.</p>
-              <p className="alert-sub">Voce esta a um passo de parar de aceitar qualquer match so por carencia e comecar a se envolver com mulheres que hoje parecem inalcanaveis.</p>
+              <p className="alert-title">O JOGO MUDA QUANDO VOCE COMEÇA A SER PERCEBIDO DIFERENTE.</p>
+              <p className="alert-sub">Voce está a um passo de parar de aceitar qualquer match só por carência e começar a se envolver com mulheres que hoje parecem inalcançáveis.</p>
             </div>
           </div>
 
@@ -192,7 +192,7 @@ function LandingPage() {
               <div className="offer-cta-sheen" />
               <span className="btn-lock">LOCK</span>
               <div className="btn-content">
-                <p className="btn-text">QUERO ACESSAR O CODIGO ANTI-REJEICAO AGORA</p>
+                <p className="btn-text">QUERO ACESSAR O CÓDIGO ANTI-REJEIÇÃO AGORA</p>
                 <p className="btn-sub">ACESSO IMEDIATO | 100% ONLINE | GARANTIA DE 7 DIAS</p>
               </div>
             </a>
