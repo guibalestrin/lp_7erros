@@ -20,7 +20,7 @@ const routeContent = {
   '/privacidade': {
     title: 'Politica de Privacidade',
     paragraphs: [
-      'A Caverna de Alexandria coleta apenas as informacoes necessarias para processar pagamentos, liberar o acesso ao produto e prestar suporte ao cliente.',
+      'A Caverna de Alexandria não coleta as informacoes necessarias para processar pagamentos.',
       'Os dados informados nao sao vendidos a terceiros. Eles podem ser compartilhados apenas com plataformas operacionais essenciais, como meios de pagamento, hospedagem e ferramentas de atendimento.',
       'Ao continuar navegando nesta pagina ou adquirir o produto, voce concorda com o uso dessas informacoes para comunicacao, entrega de conteudo e melhoria da experiencia.',
       'Se desejar solicitar atualizacao, correcao ou exclusao de dados, entre em contato pelos canais oficiais de suporte.',
