@@ -24,6 +24,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 a {
@@ -107,6 +108,149 @@ button {
   padding: 0;
   border: none;
   outline: none;
+}
+
+.jump-cta-section {
+  width: 100%;
+  background: #050505;
+  padding: 10px 12px 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.jump-cta-button {
+  width: min(100%, 420px);
+  min-height: 42px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  color: #fff4ec;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 106, 88, 0.6);
+  background:
+    linear-gradient(180deg, rgba(255, 154, 142, 0.12), rgba(255, 154, 142, 0) 28%),
+    linear-gradient(180deg, #c9281d 0%, #98130f 100%);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 218, 213, 0.3),
+    0 0 0 1px rgba(83, 8, 8, 0.6),
+    0 10px 24px rgba(87, 8, 8, 0.32);
+  -webkit-tap-highlight-color: transparent;
+  transition: transform 0.2s ease, filter 0.2s ease, box-shadow 0.2s ease;
+}
+
+.jump-cta-button:active {
+  transform: scale(0.98);
+}
+
+.jump-cta-label {
+  white-space: nowrap;
+}
+
+.jump-cta-arrow {
+  font-size: 18px;
+  line-height: 1;
+}
+
+.offer-jump-section {
+  width: 100%;
+  background: #000;
+  padding: 18px 14px 22px;
+  display: flex;
+  justify-content: center;
+}
+
+.offer-jump-card {
+  width: 100%;
+  max-width: 980px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 14px;
+  border: 1px solid rgba(196, 154, 42, 0.42);
+  border-radius: 12px;
+  text-decoration: none;
+  background:
+    linear-gradient(180deg, rgba(44, 30, 6, 0.5) 0%, rgba(12, 10, 7, 0.96) 100%);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 227, 170, 0.08),
+    0 10px 30px rgba(0, 0, 0, 0.28);
+  transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+.offer-jump-card:active {
+  transform: scale(0.985);
+}
+
+.offer-jump-icon {
+  width: 34px;
+  height: 34px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  border: 1px solid rgba(196, 154, 42, 0.28);
+  background: rgba(196, 154, 42, 0.06);
+}
+
+.offer-jump-icon-img {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+}
+
+.offer-jump-copy {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  flex: 1;
+}
+
+.offer-jump-eyebrow,
+.offer-jump-title {
+  font-family: Arial, sans-serif;
+  font-size: 10px;
+  line-height: 1.2;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #d1a140;
+}
+
+.offer-jump-title {
+  color: #f1d089;
+}
+
+.offer-jump-button {
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid rgba(244, 196, 95, 0.44);
+  background: linear-gradient(180deg, #f4c45f 0%, #cc9730 100%);
+  color: #201506;
+  font-family: Arial, sans-serif;
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.offer-jump-arrow {
+  font-size: 12px;
+  line-height: 1;
 }
 
 .cta-block {
@@ -371,6 +515,63 @@ button {
 }
 
 @media (min-width: 640px) {
+  .jump-cta-section {
+    padding: 12px 16px 16px;
+    gap: 10px;
+  }
+
+  .jump-cta-button {
+    min-height: 48px;
+    font-size: 14px;
+  }
+
+  .jump-cta-button:hover {
+    transform: translateY(-1px);
+    filter: brightness(1.05);
+    box-shadow:
+      inset 0 1px 0 rgba(255, 218, 213, 0.3),
+      0 0 0 1px rgba(83, 8, 8, 0.6),
+      0 14px 28px rgba(87, 8, 8, 0.4);
+  }
+
+  .offer-jump-section {
+    padding: 22px 20px 28px;
+  }
+
+  .offer-jump-card {
+    gap: 18px;
+    padding: 14px 18px;
+  }
+
+  .offer-jump-icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .offer-jump-icon-img {
+    width: 22px;
+    height: 22px;
+  }
+
+  .offer-jump-eyebrow,
+  .offer-jump-title {
+    font-size: 13px;
+    letter-spacing: 0.08em;
+  }
+
+  .offer-jump-button {
+    font-size: 11px;
+    padding: 11px 16px;
+  }
+
+  .offer-jump-card:hover {
+    transform: translateY(-2px);
+    border-color: rgba(244, 196, 95, 0.62);
+    box-shadow:
+      inset 0 1px 0 rgba(255, 227, 170, 0.1),
+      0 18px 38px rgba(0, 0, 0, 0.34);
+  }
+
   .cta-btn {
     padding: 16px 20px;
     border-radius: 20px;
