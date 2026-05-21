@@ -57,8 +57,8 @@ function Footer() {
         <a href="/suporte" className="footer-link">Suporte</a>
       </nav>
       <div className="footer-disclaimer">
-        Este produto e destinado a homens adultos que desejam melhorar sua presenca digital.
-        Os resultados variam individualmente. O sistema nao garante resultados especificos em relacionamentos.
+        Este produto é destinado a homens adultos que desejam melhorar sua presença digital.
+        Os resultados variam individualmente. O sistema não garante resultados especificos em relacionamentos.
       </div>
     </footer>
   );
