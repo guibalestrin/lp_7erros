@@ -12,7 +12,7 @@ const sections = [
   { id: 8, src: '/8_mecanismo.png', alt: 'Seção do mecanismo' },
   { id: 9, src: '/9_como.png', alt: 'Seção explicando como funciona' },
   { id: 10, src: '/10_provas.png', alt: 'Seção com provas' },
-  { id: 11, src: 'None', alt: '' },
+  { id: 11, src: '/10_1_provas.png', alt: 'Seção complementar com provas' },
   { id: 12, src: '/11_offerstack.png', alt: 'Seção da oferta principal' },
 ];
 
