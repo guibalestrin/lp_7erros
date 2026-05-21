@@ -1,17 +1,18 @@
 import './index.css';
 
 const sections = [
-  { id: 1, src: '/1_hero.png', alt: 'Seção principal da landing page' },
-  { id: 2, src: '/2_bigpromise.png', alt: 'Seção com a grande promessa' },
-  { id: 3, src: '/3_quebra.png', alt: 'Seção de quebra de padrão' },
-  { id: 4, src: '/4_causaoculta.png', alt: 'Seção sobre a causa oculta' },
-  { id: 5, src: '/5_inimigo.png', alt: 'Seção sobre o inimigo invisível' },
-  { id: 6, src: '/6_doremocional.png', alt: 'Seção sobre dor emocional' },
-  { id: 7, src: '/7_storytelling.png', alt: 'Seção de storytelling' },
-  { id: 8, src: '/8_mecanismo.png', alt: 'Seção do mecanismo' },
-  { id: 9, src: '/9_como.png', alt: 'Seção explicando como funciona' },
-  { id: 10, src: '/10_provas.png', alt: 'Seção com provas' },
-  { id: 11, src: '/11_offerstack.png', alt: 'Seção da oferta principal' },
+  { id: 1, src: '/1_hero.png', alt: 'SeÃ§Ã£o principal da landing page' },
+  { id: 2, src: '/2_bigpromise.png', alt: 'SeÃ§Ã£o com a grande promessa' },
+  { id: 3, src: '/3_quebra.png', alt: 'SeÃ§Ã£o de quebra de padrÃ£o' },
+  { id: 4, src: '/4_causaoculta.png', alt: 'SeÃ§Ã£o sobre a causa oculta' },
+  { id: 5, src: '/5_inimigo.png', alt: 'SeÃ§Ã£o sobre o inimigo invisÃ­vel' },
+  { id: 6, src: '/6_doremocional.png', alt: 'SeÃ§Ã£o sobre dor emocional' },
+  { id: 7, src: '/7_storytelling.png', alt: 'SeÃ§Ã£o de storytelling' },
+  { id: 8, src: '/8_mecanismo.png', alt: 'SeÃ§Ã£o do mecanismo' },
+  { id: 9, src: '/9_como.png', alt: 'SeÃ§Ã£o explicando como funciona' },
+  { id: 10, src: '/10_provas.png', alt: 'SeÃ§Ã£o com provas' },
+  { id: 11, src: '/10_1_provas.png', alt: 'SeÃ§Ã£o complementar com provas' },
+  { id: 12, src: '/11_offerstack.png', alt: 'SeÃ§Ã£o da oferta principal' },
 ];
 
 const routeContent = {
