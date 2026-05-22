@@ -281,8 +281,8 @@ function LandingPage({ proofSections }: { proofSections: LandingSection[] }) {
                   </div>
 
                   <div className="offer-jump-copy">
-                    <p className="offer-jump-eyebrow">PERCEPCAO GERA ATRACAO.</p>
-                    <p className="offer-jump-title">ESTRATEGIA GERA RESULTADOS.</p>
+                    <p className="offer-jump-eyebrow">PERCEPÇÃO GERA ATRAÇÃO.</p>
+                    <p className="offer-jump-title"></p>
                   </div>
 
                   <span className="offer-jump-button">
@@ -299,10 +299,10 @@ function LandingPage({ proofSections }: { proofSections: LandingSection[] }) {
           <div className="cta-alert">
             <span className="alert-icon">!</span>
             <div className="alert-text-block">
-              <p className="alert-title">O JOGO MUDA QUANDO VOCE COMECA A SER PERCEBIDO DIFERENTE.</p>
+              <p className="alert-title">O JOGO MUDA QUANDO VOCE COMEÇA A SER PERCEBIDO DIFERENTE.</p>
               <p className="alert-sub">
-                Voce esta a um passo de parar de aceitar qualquer match apenas por carencia
-                e comecar a se envolver com mulheres que hoje parecem inalcanaveis.
+                Voce está a um passo de parar de aceitar qualquer match apenas por falta de opção
+                e começar a se envolver com mulheres que hoje parecem inalcançáveis.
               </p>
             </div>
           </div>
@@ -318,7 +318,7 @@ function LandingPage({ proofSections }: { proofSections: LandingSection[] }) {
               <div className="offer-cta-sheen" />
 
               <div className="btn-content">
-                <p className="btn-text">QUERO ACESSAR O CODIGO ANTI-REJEICAO AGORA</p>
+                <p className="btn-text">QUERO ACESSAR O CÓDIGO ANTI-REJEIÇÃO AGORA</p>
                 <p className="btn-sub">ACESSO IMEDIATO | 100% ONLINE | GARANTIA DE 7 DIAS</p>
               </div>
             </a>
