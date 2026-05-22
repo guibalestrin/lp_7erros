@@ -136,9 +136,9 @@ function SocialProofPopup() {
   }, [isVisible]);
 
   const messages = [
-    '23 pessoas adquiriram este metodo nas ultimas horas.',
-    '10 pessoas estao comprando agora.',
-    `${buyerName} acabou de comprar o Codigo Anti-Rejeicao.`,
+    '27 pessoas adquiriram este método nas últimas horas.',
+    '10 pessoas estão comprando agora.',
+    `${buyerName} acabou de comprar o Código Anti-Rejeição.`,
   ];
 
   return (
@@ -161,13 +161,13 @@ function Footer() {
       <nav className="footer-nav">
         <a href="/privacidade" className="footer-link">Politica de Privacidade</a>
         <span className="footer-sep">|</span>
-        <a href="/termos" className="footer-link">Termos de Servico</a>
+        <a href="/termos" className="footer-link">Termos de Serviço</a>
         <span className="footer-sep">|</span>
         <a href="/suporte" className="footer-link">Suporte</a>
       </nav>
       <div className="footer-disclaimer">
-        Este produto e destinado a homens adultos que desejam melhorar sua presenca digital.
-        Os resultados variam de forma individual. O sistema nao garante resultados especificos em relacionamentos.
+        Este produto é destinado a homens adultos que desejam melhorar sua presença digital.
+        Os resultados variam de forma individual. O sistema não garante resultados específicos em relacionamentos.
       </div>
     </footer>
   );
