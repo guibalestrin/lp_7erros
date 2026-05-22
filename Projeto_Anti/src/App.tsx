@@ -299,9 +299,9 @@ function LandingPage({ proofSections }: { proofSections: LandingSection[] }) {
           <div className="cta-alert">
             <span className="alert-icon">!</span>
             <div className="alert-text-block">
-              <p className="alert-title">O JOGO MUDA QUANDO VOCE COMEÇA A SER PERCEBIDO DIFERENTE.</p>
+              <p className="alert-title">O JOGO MUDA QUANDO VOCÊ COMEÇA A SER PERCEBIDO DIFERENTE.</p>
               <p className="alert-sub">
-                Voce está a um passo de parar de aceitar qualquer match apenas por falta de opção
+                Você está a um passo de parar de aceitar qualquer match apenas por falta de opção
                 e começar a se envolver com mulheres que hoje parecem inalcançáveis.
               </p>
             </div>
