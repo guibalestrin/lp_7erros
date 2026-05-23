@@ -136,9 +136,9 @@ function SocialProofPopup() {
   }, [isVisible]);
 
   const messages = [
-    '27 pessoas adquiriram este método nas últimas horas.',
-    '10 pessoas estão comprando agora.',
-    `${buyerName} acabou de comprar o Código Anti-Rejeição.`,
+    '23 pessoas adquiriram este metodo nas ultimas horas.',
+    '10 pessoas estao comprando agora.',
+    `${buyerName} acabou de comprar o Codigo Anti-Rejeicao.`,
   ];
 
   return (
@@ -161,13 +161,13 @@ function Footer() {
       <nav className="footer-nav">
         <a href="/privacidade" className="footer-link">Politica de Privacidade</a>
         <span className="footer-sep">|</span>
-        <a href="/termos" className="footer-link">Termos de Serviço</a>
+        <a href="/termos" className="footer-link">Termos de Servico</a>
         <span className="footer-sep">|</span>
         <a href="/suporte" className="footer-link">Suporte</a>
       </nav>
       <div className="footer-disclaimer">
-        Este produto é destinado a homens adultos que desejam melhorar sua presença digital.
-        Os resultados variam de forma individual. O sistema não garante resultados específicos em relacionamentos.
+        Este produto e destinado a homens adultos que desejam melhorar sua presenca digital.
+        Os resultados variam de forma individual. O sistema nao garante resultados especificos em relacionamentos.
       </div>
     </footer>
   );
@@ -281,8 +281,8 @@ function LandingPage({ proofSections }: { proofSections: LandingSection[] }) {
                   </div>
 
                   <div className="offer-jump-copy">
-                    <p className="offer-jump-eyebrow">PERCEPÇÃO GERA ATRAÇÃO.</p>
-                    <p className="offer-jump-title"></p>
+                    <p className="offer-jump-eyebrow">PERCEPCAO GERA ATRACAO.</p>
+                    <p className="offer-jump-title">ESTRATEGIA GERA RESULTADOS.</p>
                   </div>
 
                   <span className="offer-jump-button">
@@ -299,10 +299,10 @@ function LandingPage({ proofSections }: { proofSections: LandingSection[] }) {
           <div className="cta-alert">
             <span className="alert-icon">!</span>
             <div className="alert-text-block">
-              <p className="alert-title">O JOGO MUDA QUANDO VOCÊ COMEÇA A SER PERCEBIDO DIFERENTE.</p>
+              <p className="alert-title">O JOGO MUDA QUANDO VOCE COMECA A SER PERCEBIDO DIFERENTE.</p>
               <p className="alert-sub">
-                Você está a um passo de parar de aceitar qualquer match apenas por falta de opção
-                e começar a se envolver com mulheres que hoje parecem inalcançáveis.
+                Voce esta a um passo de parar de aceitar qualquer match apenas por carencia
+                e comecar a se envolver com mulheres que hoje parecem inalcanaveis.
               </p>
             </div>
           </div>
@@ -312,13 +312,11 @@ function LandingPage({ proofSections }: { proofSections: LandingSection[] }) {
               className="cta-btn"
               href="https://pay.cakto.com.br/tgg58t5_897052"
               aria-label="Acessar o Codigo Anti-Rejeicao agora"
-              target="_blank"
-              rel="noreferrer"
             >
               <div className="offer-cta-sheen" />
 
               <div className="btn-content">
-                <p className="btn-text">QUERO ACESSAR O CÓDIGO ANTI-REJEIÇÃO AGORA</p>
+                <p className="btn-text">QUERO ACESSAR O CODIGO ANTI-REJEICAO AGORA</p>
                 <p className="btn-sub">ACESSO IMEDIATO | 100% ONLINE | GARANTIA DE 7 DIAS</p>
               </div>
             </a>
