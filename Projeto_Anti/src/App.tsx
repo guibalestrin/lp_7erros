@@ -310,7 +310,7 @@ function LandingPage({ proofSections }: { proofSections: LandingSection[] }) {
           <div className="cta-btn-wrapper">
             <a
               className="cta-btn"
-              href="https://pay.kiwify.com.br/kTyieX6"
+              href="https://pay.cakto.com.br/tgg58t5_897052"
               aria-label="Acessar o Codigo Anti-Rejeicao agora"
               target="_blank"
               rel="noreferrer"
