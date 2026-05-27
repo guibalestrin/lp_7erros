@@ -35,28 +35,28 @@ const routeContent = {
   '/privacidade': {
     title: 'Politica de Privacidade',
     paragraphs: [
-      'A Caverna de Alexandria coleta apenas as informacoes necessarias para processar pagamentos, liberar o acesso ao produto e prestar suporte ao cliente.',
-      'Os dados informados nao sao vendidos a terceiros. Eles podem ser compartilhados apenas com plataformas operacionais essenciais, como meios de pagamento, hospedagem e ferramentas de atendimento.',
-      'Ao continuar navegando nesta pagina ou adquirir o produto, voce concorda com o uso dessas informacoes para comunicacao, entrega de conteudo e melhoria da experiencia.',
+      'A Caverna de Alexandria coleta apenas as informações necessárias para processar pagamentos, liberar o acesso ao produto e prestar suporte ao cliente.',
+      'Os dados informados não são vendidos a terceiros. Eles podem ser compartilhados apenas com plataformas operacionais essenciais, como meios de pagamento, hospedagem e ferramentas de atendimento.',
+      'Ao continuar navegando nesta pagina ou adquirir o produto, você concorda com o uso dessas informacoes para comunicação, entrega de conteúdo e melhoria da experiência.',
       'Se desejar solicitar atualizacao, correcao ou exclusao de dados, entre em contato pelos canais oficiais de suporte.',
     ],
   },
   '/termos': {
     title: 'Termos de Servico',
     paragraphs: [
-      'O conteudo da Caverna de Alexandria e destinado exclusivamente a fins informativos e educacionais, sendo proibida a reproducao, distribuicao ou revenda sem autorizacao expressa.',
-      'O acesso ao material e individual. O compartilhamento indevido de login, arquivos ou areas protegidas pode resultar em bloqueio do acesso sem reembolso.',
-      'Os resultados variam de pessoa para pessoa e dependem da aplicacao pratica do conteudo. Nenhuma promessa deve ser interpretada como garantia absoluta de resultado.',
-      'Ao adquirir e utilizar o produto, voce declara estar de acordo com estes termos e com a politica de privacidade vigente.',
+      'O conteúdo da Caverna de Alexandria é destinado exclusivamente a fins informativos e educacionais, sendo proibida a reprodução, distribuição ou revenda sem autorização expressa.',
+      'O acesso ao material é individual. O compartilhamento indevido de login, arquivos ou áreas protegidas pode resultar em bloqueio do acesso sem reembolso.',
+      'Os resultados variam de pessoa para pessoa e dependem da aplicação prática do conteúdo. Nenhuma promessa deve ser interpretada como garantia absoluta de resultado.',
+      'Ao adquirir e utilizar o produto, você declara estar de acordo com estes termos e com a política de privacidade vigente.',
     ],
   },
   '/suporte': {
     title: 'Suporte',
     paragraphs: [
-      'Se voce precisar de ajuda com acesso, pagamento ou duvidas sobre o produto, entre em contato pelos canais abaixo.',
+      'Se voce precisar de ajuda com acesso, pagamento ou dúvidas sobre o produto, entre em contato pelos canais abaixo.',
       'Email: cavernadealexandria@gmail.com',
       'WhatsApp: (11) 98695-5476',
-      'Nosso atendimento responde por ordem de chegada, em horario comercial.',
+      'Nosso atendimento responde por ordem de chegada, em horário comercial.',
     ],
   },
 } as const;
@@ -136,9 +136,9 @@ function SocialProofPopup() {
   }, [isVisible]);
 
   const messages = [
-    '23 pessoas adquiriram este metodo nas ultimas horas.',
-    '10 pessoas estao comprando agora.',
-    `${buyerName} acabou de comprar o Codigo Anti-Rejeicao.`,
+    '23 pessoas adquiriram este método nas últimas horas.',
+    '10 pessoas estão comprando agora.',
+    `${buyerName} acabou de comprar o Código Anti-Rejeição.`,
   ];
 
   return (
@@ -159,15 +159,15 @@ function Footer() {
   return (
     <footer className="site-footer">
       <nav className="footer-nav">
-        <a href="/privacidade" className="footer-link">Politica de Privacidade</a>
+        <a href="/privacidade" className="footer-link">Política de Privacidade</a>
         <span className="footer-sep">|</span>
-        <a href="/termos" className="footer-link">Termos de Servico</a>
+        <a href="/termos" className="footer-link">Termos de Serviço</a>
         <span className="footer-sep">|</span>
         <a href="/suporte" className="footer-link">Suporte</a>
       </nav>
       <div className="footer-disclaimer">
-        Este produto e destinado a homens adultos que desejam melhorar sua presenca digital.
-        Os resultados variam de forma individual. O sistema nao garante resultados especificos em relacionamentos.
+        Este produto é destinado a homens adultos que desejam melhorar sua presença digital.
+        Os resultados variam de forma individual. O sistema não garante resultados específicos em relacionamentos.
       </div>
     </footer>
   );
@@ -199,7 +199,7 @@ function LegalPage({
 
       <main className="legal-wrapper">
         <section className="legal-card">
-          <p className="legal-kicker">Informacoes Legais</p>
+          <p className="legal-kicker">Informações Legais</p>
           <h1 className="legal-title">{title}</h1>
           {paragraphs.map((paragraph) => (
             <p key={paragraph} className="legal-paragraph">{paragraph}</p>
@@ -274,15 +274,15 @@ function LandingPage({ proofSections }: { proofSections: LandingSection[] }) {
                 <a
                   className="offer-jump-card"
                   href="#offerstack"
-                  aria-label="Aplicar o sistema completo e ir para a secao da oferta principal"
+                  aria-label="Aplicar o sistema completo e ir para a seção da oferta principal"
                 >
                   <div className="offer-jump-icon" aria-hidden="true">
                     <img src="/Insta.png" alt="" className="offer-jump-icon-img" />
                   </div>
 
                   <div className="offer-jump-copy">
-                    <p className="offer-jump-eyebrow">PERCEPCAO GERA ATRACAO.</p>
-                    <p className="offer-jump-title">ESTRATEGIA GERA RESULTADOS.</p>
+                    <p className="offer-jump-eyebrow">PERCEPÇÃO GERA ATRAÇÃO.</p>
+                    <p className="offer-jump-title">ESTRATÉGIA GERA RESULTADOS.</p>
                   </div>
 
                   <span className="offer-jump-button">
@@ -299,10 +299,10 @@ function LandingPage({ proofSections }: { proofSections: LandingSection[] }) {
           <div className="cta-alert">
             <span className="alert-icon">!</span>
             <div className="alert-text-block">
-              <p className="alert-title">O JOGO MUDA QUANDO VOCE COMECA A SER PERCEBIDO DIFERENTE.</p>
+              <p className="alert-title">O JOGO MUDA QUANDO VOCÊ COMEÇA A SER PERCEBIDO DIFERENTE.</p>
               <p className="alert-sub">
-                Voce esta a um passo de parar de aceitar qualquer match apenas por carencia
-                e comecar a se envolver com mulheres que hoje parecem inalcanaveis.
+                Voce está a um passo de parar de aceitar qualquer match apenas por falta de opção
+                e começar a se envolver com mulheres que hoje parecem inalcançáveis.
               </p>
             </div>
           </div>
@@ -311,12 +311,12 @@ function LandingPage({ proofSections }: { proofSections: LandingSection[] }) {
             <a
               className="cta-btn"
               href="https://pay.cakto.com.br/tgg58t5_897052"
-              aria-label="Acessar o Codigo Anti-Rejeicao agora"
+              aria-label="Acessar o Código Anti-Rejeição agora"
             >
               <div className="offer-cta-sheen" />
 
               <div className="btn-content">
-                <p className="btn-text">QUERO ACESSAR O CODIGO ANTI-REJEICAO AGORA</p>
+                <p className="btn-text">QUERO ACESSAR O CÓDIGO ANTI-REJEIÇÃO AGORA</p>
                 <p className="btn-sub">ACESSO IMEDIATO | 100% ONLINE | GARANTIA DE 7 DIAS</p>
               </div>
             </a>
